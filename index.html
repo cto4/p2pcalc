@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#3f3f3f" />
+    <title>P2P Calculator</title>
+    <meta name="description" content="A simple calculator to eval dual-currency buy/sell P2P Exchange." />
+    <link rel="icon shortcut" href="assets/images/logo-612.png" />
+
+    <link rel="stylesheet" href="assets/css/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <center>
+      <section class="container">
+        <img class="banner" src="assets/images/banner.svg" />
+        <h2>P2P Calculator</h2>
+        <img class="moon" src="assets/images/moon.png" onclick="switchMode()" />
+        <hr />
+        <table border="0">
+          <tr>
+            <td>Buy Price</td>
+            <td>Sell Price</td>
+          </tr>
+          <tr>
+            <td><input type="number" id="buy" placeholder="Buy Price" /></td>
+            <td><input type="number" id="sell" placeholder="Sell Price" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="number" id="from" placeholder="Amount" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input id="to" placeholder="Exchange" disabled /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button onclick="exchange(buy.value,sell.value,from.value,to.value)">Exchange</button></td>
+          </tr>
+        </table>
+      </section>
+      <section class="social">
+        <a href="http://github.com/cto4"><i class="fab fa-github"></i></a>
+        <a href="http://t.me/cto4ru"><i class="fab fa-telegram"></i></a>
+        <a href="http://fb.com/cto4ru"><i class="fab fa-facebook"></i></a>
+        <a href="http://m.me/cto4ru"><i class="fab fa-facebook-messenger"></i></a>
+        <a href="http://hima-pro.ru"><i class="fa fa-globe"></i></a>
+      </section>
+    </center>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

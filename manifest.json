@@ -1,0 +1,29 @@
+{
+  "name": "P2P Calculator",
+  "short_name": "P2P Calculator",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#0077ff",
+  "background_color": "#ffffff",
+  "orientation":"portrait",
+  "description": "A Calculator to equal the exchange for p2p currency trading.",
+  "icons": [
+    {
+      "src": "./assets/images/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/images/logo-612.png",
+      "type": "image/png",
+      "sizes": "612x612"
+    },
+    {
+      "src": "./assets/images/logo-612.png",
+      "type": "image/png",
+      "sizes": "612x612",
+      "purpose": "monochrome"
+    }
+  ]
+}
